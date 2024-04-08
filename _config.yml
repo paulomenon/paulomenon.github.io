@@ -1,5 +1,5 @@
-title: Welcome to Raw IT! I'm Paulo Menon
-description: > # this means to ignore newlines until "baseurl:"
+title: Welcome to Raw IT Blog!
+description: > # something
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
@@ -7,17 +7,18 @@ permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "paulomenon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: menon_paulo #if your site has a twitter account, enter it here
+future: true # allow post in future date to show up in the page
 
 # Author Settings
 author: Paulo Menon # add your name
 author-img: paulo-menon.jpg # add your photo
-about-author: I am a IT Consultant. Always hungry to keep eating meet. # add description
+about-author: I am a IT Consultant. Always hungry to keep eating meat. # add description
 social-twitter: menon_paulo # add your Twitter handle
 #social-facebook: # add your Facebook handle
 social-github: paulomenon # add your Github handle
 social-linkedin: paulomenon # add your Linkedin handle
 social-email: # add your Email address
-social-youtube:
+social-youtube: link-tbc/
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
