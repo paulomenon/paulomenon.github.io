@@ -827,7 +827,7 @@ pre code {
 }
 
 table {
-  border: 1px solid #aaa;
+  border: none; /*solid #aaa;*/
   background-color: #eee;
   width: 100%;
   text-align: left;
@@ -835,8 +835,8 @@ table {
 }
 
 table td, table.blueTable th {
-  border: 1px solid #aaa;
-  padding: 3px 2px;
+  border: none; /*1px solid #aaa;*/
+  padding: 0px; /*3px 2px;*/
 }
 
 table tbody td {

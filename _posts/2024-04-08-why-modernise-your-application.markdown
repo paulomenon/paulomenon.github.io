@@ -2,11 +2,13 @@
 layout: post
 title: Why Modernise Your Application?
 date: 2024-04-08 12:00:00 +0000
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: how-to-start.jpg # Add image post (optional)
+description: Why Modernise Your Application?. in this post I want to explore the reason and the motivations behind an application modernization project. # Add post description (optional)
+img: modernisation_dict.jpg # Add image post (optional)
 tags: [Programming, Learn] # add tag
 ---
 Hi, in this post I want to explore the reason and the motivations behind an application modernization project.
+
+<!--more-->
 
 This is based on my experience working as a Principal AppDev Consultant in an architecture role, helping customers modernise their applications and migrate workloads to the cloud.
 
@@ -20,15 +22,15 @@ These items below could be the reason you were looking to modernise your softwar
 
 I have been doing several projects that involve migrations, modernisations and digital transformation. From that experience, I have selected 5 main reasons why you would change your legacy system.
 
-1 - Move to a supported environment - If you are currently operating on an outdated and unsupported platform, the applications hosted within this environment will likely need to be migrated to a fully supported platform by a specified deadline, as per the company policy.
+1. **Move to a supported environment** - If you are currently operating on an outdated and unsupported platform, the applications hosted within this environment will likely need to be migrated to a fully supported platform by a specified deadline, as per the company policy.
 
-2 - Deliver new features faster - To drive further growth for your business and incorporate new features, it is crucial to adopt a strategic approach. One effective method is to modularize your monolithic application, optimising the organisation of its modules, or even transitioning towards a microservice architecture. By embracing a microservice approach, you can achieve greater component independence, enabling your application to evolve more efficiently and adapt to changing requirements.
+2. **Deliver new features faster** - To drive further growth for your business and incorporate new features, it is crucial to adopt a strategic approach. One effective method is to modularize your monolithic application, optimising the organisation of its modules, or even transitioning towards a microservice architecture. By embracing a microservice approach, you can achieve greater component independence, enabling your application to evolve more efficiently and adapt to changing requirements.
 
-3 - Low down cost - When you realise that the maintenance costs of your legacy applications are increasing, it's important to acknowledge the complexities associated with the old environment and source code base. Additionally, finding skilled individuals to work on such systems can prove to be a challenging task. 
+3. **Low down cost** - When you realise that the maintenance costs of your legacy applications are increasing, it's important to acknowledge the complexities associated with the old environment and source code base. Additionally, finding skilled individuals to work on such systems can prove to be a challenging task. 
 
-4 - Improve performance - Normally the primary motivation behind this decision is to deliver faster responses to your customers, thereby fostering business growth and enhancing the overall customer experience.
+4. **Improve performance** - Normally the primary motivation behind this decision is to deliver faster responses to your customers, thereby fostering business growth and enhancing the overall customer experience.
 
-5 - Scalability -  To obtain a more efficient and seamless scalability process with minimal downtime, it is imperative to migrate your workload to the cloud. By leveraging a cloud platform, you can benefit from enhanced flexibility, enabling automatic scaling of your applications whenever they encounter resource constraints such as limited memory or other critical resources.
+5. **Scalability** -  To obtain a more efficient and seamless scalability process with minimal downtime, it is imperative to migrate your workload to the cloud. By leveraging a cloud platform, you can benefit from enhanced flexibility, enabling automatic scaling of your applications whenever they encounter resource constraints such as limited memory or other critical resources.
 
 
 

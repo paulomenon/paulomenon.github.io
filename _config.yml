@@ -1,8 +1,11 @@
-title: Welcome to Raw IT Blog!
-description: > # something
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+---
+title: Welcome to PMenon's Insights Blog!
+description: > 
+  Discover PMenon's Insights: Your go-to resource for Paulo Menon's 20+ years of IT expertise. 
+  Explore topics like application development, software architecture, 
+  cloud solutions, DevOps, data science, Software architecture,
+  Java, Ansible, Python, and more! 
+# Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "paulomenon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -12,16 +15,16 @@ future: true # allow post in future date to show up in the page
 # Author Settings
 author: Paulo Menon # add your name
 author-img: paulo-menon.jpg # add your photo
-about-author: I am a IT Consultant. Always hungry to keep eating meat. # add description
+about-author: I am a Principal Consultant/Architect. Specialize in cloud solutions with a passion for open source, collaboration and knowledge sharing.  # add description
 social-twitter: menon_paulo # add your Twitter handle
 #social-facebook: # add your Facebook handle
 social-github: paulomenon # add your Github handle
 social-linkedin: paulomenon # add your Linkedin handle
-social-email: # add your Email address
+social-email: pmenoninsights@gmail.com # add your Email address
 social-youtube: link-tbc/
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+discus-identifier: paulomenon-github-io  #mr-brown add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
@@ -37,3 +40,10 @@ paginate: 8
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+excerpt_separator: <!--more-->
+
+
+layout: default
+comments: true
+# other options
