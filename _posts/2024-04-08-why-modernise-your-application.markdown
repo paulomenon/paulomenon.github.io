@@ -33,16 +33,13 @@ I have been doing several projects that involve migrations, modernisations and d
 5. **Scalability** -  To obtain a more efficient and seamless scalability process with minimal downtime, it is imperative to migrate your workload to the cloud. By leveraging a cloud platform, you can benefit from enhanced flexibility, enabling automatic scaling of your applications whenever they encounter resource constraints such as limited memory or other critical resources.
 
 
-
 Understandably, you may face some resistance to change. Don’t be surprised if not everybody is embracing the idea. Maybe part of your team or top management needs more facts or discussions. I hope this article can help you with ideas on where to collect facts to back up a modernisation proposal. 
 
 Many things need careful consideration before even starting a modernisation journey. Hence, regardless of the reason behind the motivation to change your application, the best way to validate that is by doing a Discovery Session or a Navigator which is an assessment and analysis of your legacy system. 
 
 You can check more details about that in this other blog post I’m putting together here.
 
-
 I hope that example helped give you some business reasons to modernise your application.
-
 
 >This page was last update at {{ "now" | date: "%Y-%m-%d %H:%M" }} 
 
