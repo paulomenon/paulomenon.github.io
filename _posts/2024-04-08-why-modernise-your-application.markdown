@@ -26,7 +26,7 @@ I have been doing several projects that involve migrations, modernisations and d
 
 2. **Deliver new features faster** - To drive further growth for your business and incorporate new features, it is crucial to adopt a strategic approach. One effective method is to modularize your monolithic application, optimising the organisation of its modules, or even transitioning towards a microservice architecture. By embracing a microservice approach, you can achieve greater component independence, enabling your application to evolve more efficiently and adapt to changing requirements.
 
-3. **Low down cost** - When you realise that the maintenance costs of your legacy applications are increasing, it's important to acknowledge the complexities associated with the old environment and source code base. Additionally, finding skilled individuals to work on such systems can prove to be a challenging task. 
+3. **Cost-effective** - When you realise that the maintenance costs of your legacy applications are increasing, it's important to acknowledge the complexities associated with the old environment and source code base. Additionally, finding skilled individuals to work on such systems can prove to be a challenging task. 
 
 4. **Improve performance** - Normally the primary motivation behind this decision is to deliver faster responses to your customers, thereby fostering business growth and enhancing the overall customer experience.
 
