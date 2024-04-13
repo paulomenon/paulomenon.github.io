@@ -7,9 +7,10 @@ img:  welcome.jpg # Add image post (optional)
 ---
 **PMenon's Insights?**
 
+
 Welcome to PMenon's Insights – a hub for IT enthusiasts, learners, and professionals alike, driven by a passion for giving back, empowering others, and fostering connections within the ever-evolving landscape of technology.
 
-I believe in the power of collaboraton, knowledge transfer and communty engagement. My blog is to share information, real use cases, learning path and tutorials base on my experiences working in the IT industry for over 23 years
+I believe in the power of collaboration, knowledge transfer and community engagement. My blog is to share information, real use cases, learning paths and tutorials based on my experiences working in the IT industry for over 23 years
 
 Whether you're a seasoned developer, a curious enthusiast, or a tech professional looking to expand your skill set, PMenon's Insights is tailored to meet your needs. Dive into our extensive collection of articles covering Java and Python programming, cloud-native technologies, cloud platforms, automation, integration, DevOps, GitOps, MLOps, Agile methodologies, CI/CD pipelines, data analytics, data science, and AI.
 
