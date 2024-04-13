@@ -4,6 +4,7 @@ title: "What is PMenon's Insights? and >$ whoami"
 date: 2050-01-01 12:00:00 +0000
 description: Brief intro about myself. # Add post description (optional)
 img:  welcome.jpg # Add image post (optional)
+tags: ["PMenon's Insights","Paulo Menon","pamenon","pmenon"]
 ---
 **PMenon's Insights?**
 

@@ -4,7 +4,9 @@ title: Why Modernise Your Application?
 date: 2024-04-08 12:00:00 +0000
 description: Why Modernise Your Application?. in this post I want to explore the reason and the motivations behind an application modernization project. # Add post description (optional)
 img: modernisation_dict.jpg # Add image post (optional)
-tags: [Programming, Learn] # add tag
+tags: [Application,Modernisation,Cloud Migration,DevOps] # add tag
+
+
 ---
 Hi, in this post I want to explore the reason and the motivations behind an application modernization project.
 
