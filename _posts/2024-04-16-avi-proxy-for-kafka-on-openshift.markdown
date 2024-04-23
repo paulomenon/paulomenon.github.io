@@ -3,7 +3,7 @@ layout: post
 title: AVI networks proxy for Kafka Streams on Openshift
 date: 2024-04-16 12:00:00 +0000
 description: AVI proxy configuration for AMQ Stream aka Kafka Stream using Strimiz on Openshift/Kubernets. # Add post description (optional)
-img: modernisation_dict.jpg # Add image post (optional)
+img: strimziKafka.png # Add image post (optional)
 tags: [AVI network,RH AMQ Stream,Kafka Stream,Strimiz] # add tag
 
 ---
@@ -50,16 +50,24 @@ Then AVI will configure the service route using the service port 9094 by default
 When you try to send messages using the consumer like this command below for testing propose:
 <div class="code-snippet">
   <div class="highlight">
-{% highlight shell %}
+ {% highlight shell %}
 ./kafka-console-producer.sh --broker-list <external bootstap route hostname>:443 --topic <your topic name> --producer.config sslconfig.properties
-{% endhighlight %}
+ {% endhighlight %}
 <button class="copy-button" onclick="copyCode(this)" title="Copy to Clipboard"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M 8 2 L 8 4 L 4 4 L 4 20 L 16 20 L 16 16 L 18 16 L 18 22 L 2 22 L 2 2 Z M 10 4 L 18 4 L 18 14 L 16 14 L 16 6 L 10 6 Z M 6 8 L 14 8 L 14 18 L 6 18 Z M 10 10 L 12 10 L 12 16 L 10 16 Z"></path></svg></button>
 </div>
 </div>
 
 **You will get this following ERROR:**
 
-//add code here
+<div class="code-snippet">
+  <div class="highlight">
+    {% highlight shell %}
+ERROR Error when sending message to topic topic1 with key: null, value: 8 bytes with error: (org.apache.kafka.clients.producer.internals.ErrorLoggingCallback)
+org.apache.kafka.common.errors.TimeoutException: Topic test not present in metadata after 60000 ms.
+ {% endhighlight %}
+<button class="copy-button" onclick="copyCode(this)" title="Copy to Clipboard"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M 8 2 L 8 4 L 4 4 L 4 20 L 16 20 L 16 16 L 18 16 L 18 22 L 2 22 L 2 2 Z M 10 4 L 18 4 L 18 14 L 16 14 L 16 6 L 10 6 Z M 6 8 L 14 8 L 14 18 L 6 18 Z M 10 10 L 12 10 L 12 16 L 10 16 Z"></path></svg></button>
+</div>
+</div>
 
 **Solution**
 
