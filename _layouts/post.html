@@ -5,8 +5,46 @@ layout: main
   #copyUrlButton:hover {
     cursor: pointer;
   }
+
+.code-snippet {
+  position: relative;
+}
+
+.highlight {
+  position: relative;
+}
+
+.copy-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
 </style>
 <script>
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(function () {
+    alert('Code copied to clipboard!');
+  }, function (err) {
+    console.error('Unable to copy code: ', err);
+  });
+}
+
+// Function to copy code when the button is clicked
+function copyCode(button) {
+  var codeSnippet = button.previousElementSibling.textContent.trim();
+  copyToClipboard(codeSnippet);
+}
+
+// Function to copy code when the button is clicked
+function copyCode(button) {
+  var codeSnippet = button.previousElementSibling.querySelector('code').textContent.trim();
+  copyToClipboard(codeSnippet);
+}
+
 function copyUrl() {
   var url = window.location.href;
   
