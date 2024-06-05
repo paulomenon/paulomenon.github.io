@@ -12,7 +12,7 @@ tags: [Cloud Architecture, Kubernetes, Openshift] # add tag
 
 Are you new to cloud architecture or cloud in general? You came to the right place. Today I explore some cloud architecture key concepts and clarify some myths around the digital transformation journey.
 
-This is part 1 of 3 a series of blogs to guide you to unlocking digital transformation.
+This is part 1 of 4 a series of blogs to guide you to unlocking digital transformation.
 <!--more-->
 
 A few years ago a new starter junior IT person moved from network admin to more cloud admin DevOps type of role to try his luck in the new world of the cloud platform. This person's misconception was that cloud architecture gives you a client to be installed in the local user machine when they need to use an app or a simple pipeline app running in the cloud platform basically, anything that you need to use app-related in the cloud platform. Then the cloud platform will use the user's local machine resources.  
