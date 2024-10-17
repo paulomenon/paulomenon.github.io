@@ -203,6 +203,8 @@ So if you run this code again and type a different name the variable called name
 
 <img src="../assets/img/again.jpg"  width="600" height="300"  title="Set variable to NULL" >
 
+### Python
+
 Let’s see how that would be in a Python syntax.
 
 <div class="code-snippet">
@@ -247,11 +249,15 @@ This Python code takes user input and displays a personalized welcome message. H
 
 You can try adding an extra variable to store the person's age and with if else check if the person is older than 18 if yes print “adult discount available for you” else “discount for kids menu available for you”
 
-You can check for more examples in my repo here.
+### Python Examples
+
+You want to check **Python** examples like this one and more, you can explore **my repo** [here](https://github.com/paulomenon/python-simple-example).
 
 For me what helped was to understand what was going on behind the scenes the other thing was problem-solving exercises. 
 
-You can explore problem-solving exercises here. 
+### Problem Solving Examples
+
+You can explore **problem-solving exercises** [here]({{ site.baseurl }}/problem-solving/). 
 
 
 >This page was last update at {{ "now" | date: "%Y-%m-%d %H:%M" }} 

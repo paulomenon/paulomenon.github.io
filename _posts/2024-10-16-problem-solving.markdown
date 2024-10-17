@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Problem Solving Exercises
-date: 2024-09-26 12:00:00 +0000
+date: 2024-10-16 12:00:00 +0000
 description: Problem Solving Exercises to get your stared in programming. Explore classic problem-solving exercises and riddles to sharpen your programming and critical thinking skills. From the River Crossing Puzzle to logic challenges like the Sibling Riddle and Car Colour Puzzle, these examples help improve planning, deduction, and reasoning. Ideal for both beginners and seasoned puzzle enthusiasts, discover solutions that teach you to think ahead, identify contradictions, and break down problems logically. # Add post description (optional)
-img: programming.jpg # Add image post (optional)
+img: problem_solving.jpg # Add image post (optional)
 tags: [ProblemSolving, LogicPuzzles,CriticalThinking,  ProgrammingChallenges, BrainTeasers] # add tag
 
 ---
