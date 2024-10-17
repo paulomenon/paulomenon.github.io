@@ -3,7 +3,7 @@ title: Welcome to PMenon's Insights Blog!
 description: > 
   Discover PMenon's Insights: Your go-to resource for Paulo Menon's 20+ years of IT expertise. 
   Explore topics like application development, software architecture, 
-  cloud solutions, DevOps, data science, Software architecture,
+  cloud solutions, cloud architecture, CiCd, GitOps, DevOps, Data science, Software architecture,
   Java, Ansible, Python, and more! 
 # Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 permalink: ':title/'

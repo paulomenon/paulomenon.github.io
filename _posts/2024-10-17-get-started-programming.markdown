@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Get started in Programming
-date: 2024-09-26 12:00:00 +0000
+title: Get started Programming
+date: 2024-10-17 12:00:00 +0000
 description: Kickstart your programming journey with practical tips and real-world examples. Whether you're a beginner looking to learn coding or someone struggling to make sense of programming languages, this guide provides easy-to-follow advice to help you build a strong foundation and improve your skills. # Add post description (optional)
 img: programming.jpg # Add image post (optional)
 tags: [ProgrammingForBeginners, LearnToCode,TechCareer,  CodingTips, Programming, ProblemSolving, Python] # add tag
 
 ---
-# Get started in Programming
+# Get started Programming
 
 Welcome to the world of programming! Whether you’re looking to build a tech career, automate tasks, or simply explore a new hobby, starting your programming journey can be both exciting and overwhelming. Here are some essential tips to help you kickstart your learning path effectively.
 
@@ -85,8 +85,6 @@ Programming will follow the same **logic struct**, when you execute some sequenc
 Right now that we have established this, let’s think about a cake **recipe**, I love carrot cake and whether you cooked it or not you know that if you don’t follow the recipe your cake will be s* or just not good enough or just different.
 
 Let’s think now about what a **carrot cake** needs, sugar, flour, eggs, oil, etc.
-
-//image here
 
 Right, you have the ingredients and items to put and mix. 
 
@@ -185,22 +183,25 @@ The user types in their name, and the computer stores that name inside the "name
 
 So now, instead of being empty, the name box holds the name the user typed. For example, if the user types "Paulo," the name box will now contain "Paulo."
 
-<img src="../assets/img/null.jpg"  width="600" height="300"  title="Set variable to NULL" >
+<img src="../assets/img/memory_full.jpg"  width="600" height="300"  title="Set variable to NULL" >
 
+Then when you want to display it in the console you do the following command
 
 `DISPLAY "Welcome, " + name + "!"`
 
-//image here
 
 Now, the computer will show a message that says "Welcome" followed by the name from the name box, and an exclamation point.
 
 If the user typed "Paulo," the computer will show: "Welcome, Paulo!"
 
+<img src="../assets/img/display.jpg"  width="600" height="300"  title="Set variable to NULL" >
+
+
 This is done by combining the words "Welcome," the name from the box (e.g., "Paulo"), and an exclamation point. This is to put words/text together then in programming they will give a fancy name called concatenate string.
 
 So if you run this code again and type a different name the variable called name will receive this new user name and display it like before.
 
-// image here
+<img src="../assets/img/again.jpg"  width="600" height="300"  title="Set variable to NULL" >
 
 Let’s see how that would be in a Python syntax.
 
