@@ -34,7 +34,7 @@ The output should look similar to this:
 
 ![image](../assets/img/brew_search.png)
 
-Choose the JDK version you want to install and type this.
+Choose the JDK version you want to install and type this, before install it.
 
 <div class="code-snippet">
   <div class="highlight">
