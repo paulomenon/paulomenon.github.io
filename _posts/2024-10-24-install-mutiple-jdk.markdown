@@ -45,13 +45,13 @@ brew info --cask adoptopenjdk8
  </div>
 </div>
 
-. `brew`: This is the command-line interface for Homebrew, a package manager for macOS and Linux that simplifies the installation of software.
+* `brew`: This is the command-line interface for Homebrew, a package manager for macOS and Linux that simplifies the installation of software.
 
-. `info`: This command requests detailed information about a specific package or cask installed via Homebrew.
+* `info`: This command requests detailed information about a specific package or cask installed via Homebrew.
 
-. `--cask`: This flag specifies that you are referring to a cask, which is used for installing GUI applications and other software that does not fit the standard formula model in Homebrew.
+* `--cask`: This flag specifies that you are referring to a cask, which is used for installing GUI applications and other software that does not fit the standard formula model in Homebrew.
 
-. `adoptopenjdk8`: This specifies the particular cask for which you want information. In this case, it refers to AdoptOpenJDK 8, which is an open-source distribution of the Java Development Kit (JDK).
+* `adoptopenjdk8`: This specifies the particular cask for which you want information. In this case, it refers to AdoptOpenJDK 8, which is an open-source distribution of the Java Development Kit (JDK).
 
 
 
@@ -69,9 +69,9 @@ brew install --cask  adoptopenjdk8
 <button class="copy-button" onclick="copyCode(this)" title="Copy to Clipboard"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M 8 2 L 8 4 L 4 4 L 4 20 L 16 20 L 16 16 L 18 16 L 18 22 L 2 22 L 2 2 Z M 10 4 L 18 4 L 18 14 L 16 14 L 16 6 L 10 6 Z M 6 8 L 14 8 L 14 18 L 6 18 Z M 10 10 L 12 10 L 12 16 L 10 16 Z"></path></svg></button>
  </div>
 </div>
-Remember to replace the JDK version number at the end with the one you need.
+Remember to replace the JDK version number at the end with the one you need
 
-. `install`: This command tells Homebrew to install a specified package or cask.
+*  `install`: This command tells Homebrew to install a specified package or cask.
 
 You may need to run `brew update` first to access the latest Homebrew catalog and versions.
 
