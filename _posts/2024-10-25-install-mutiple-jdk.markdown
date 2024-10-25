@@ -17,7 +17,7 @@ I’ll cover how to install multiple JDK versions on a Mac, however, a similar p
 
 Let’s get started.
 
-## Homebrew
+### Homebrew
 If you’re on Linux, you can use your preferred package manager, such as `yum`, `dnf`, `apt`, `zipper`, `winget`, etc. For Mac users, consider using `Homebrew` or a similar package manager to easily install Java, Python, and other programming tools.
 
 Get https://brew.sh/[Homebrew].
@@ -56,7 +56,7 @@ brew info --cask adoptopenjdk8
 * `adoptopenjdk8`: This specifies the particular cask for which you want information. In this case, it refers to AdoptOpenJDK 8, which is an open-source distribution of the Java Development Kit (JDK).
 
 
-## Install JAVA
+### Install JAVA
 
 Running brew info `--cask` adoptopenjdk8 before executing brew `install` --cask adoptopenjdk8 serves a specific purpose, primarily for gathering information and ensuring a smooth installation process.
 
@@ -106,7 +106,6 @@ vi ~/.bash_profile
 </div>
 
 Add the JAVA_HOME like this:
-
 
 <div class="code-snippet">
   <div class="highlight">
