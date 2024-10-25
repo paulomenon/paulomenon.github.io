@@ -1,18 +1,20 @@
 ---
 layout: post
-title: Problem Solving Exercises
+title: Essential Problem-Solving Exercises to Kickstart Your Programming Journey 
 date: 2024-10-16 12:00:00 +0000
 description: Problem Solving Exercises to get your stared in programming. Explore classic problem-solving exercises and riddles to sharpen your programming and critical thinking skills. From the River Crossing Puzzle to logic challenges like the Sibling Riddle and Car Colour Puzzle, these examples help improve planning, deduction, and reasoning. Ideal for both beginners and seasoned puzzle enthusiasts, discover solutions that teach you to think ahead, identify contradictions, and break down problems logically. # Add post description (optional)
 img: problem_solving.jpg # Add image post (optional)
+fig-caption: Photo by <a href="https://unsplash.com/@alandelacruz4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">ALAN DE LA CRUZ</a> on <a href="https://unsplash.com/photos/3-x-3-rubiks-cube-CmO_GydmKaY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 tags: [ProblemSolving, LogicPuzzles,CriticalThinking,  ProgrammingChallenges, BrainTeasers] # add tag
 
 ---
+## Problem Solving Exercises
 
 Here are some problem-solving exercises to help you on your programming journey. These are classic examples nothing fancy, but useful for practice, just like the ones I used when learning to program.
 
 A classic example of a problem-solving exercise is the **"River Crossing Puzzle"**. This puzzle tests logic, planning, and critical thinking. Here's how it works:
 
-### River Crossing Puzzle
+## River Crossing Puzzle
 
 ### The Problem:
 You are on one side of a river with a boat, and you need to transport a **wolf**, a **goat**, and a **cabbage** to the other side of the river. However, there are a few conditions:
@@ -44,7 +46,7 @@ Figure out how to get all three (the wolf, the goat, and the cabbage) across the
 <button id="toggle-button1" onclick="toggleContent('collapsible-content1','toggle-button1')">Show Solution</button>
 
 
-### The Sibling Riddle
+## The Sibling Riddle
 
 ### The Problem:
 There are three siblings: **Alex**, **Blake**, and **Charlie**. They are talking about their ages:
@@ -79,7 +81,7 @@ One of them is lying. Can you figure out who is the youngest, the oldest, and wh
 <button id="toggle-button2" onclick="toggleContent('collapsible-content2','toggle-button2')">Show Solution</button>
 
 
-### The Missing Dollar Riddle
+## The Missing Dollar Riddle
 
 ### The Problem:
 Three friends go to a restaurant and order a meal costing $30. They each contribute $10, for a total of $30. The waiter realizes there was a mistake, and the meal only costs $25. The waiter gives $5 back to the friends. 
@@ -101,7 +103,7 @@ Where is the missing dollar? Shouldn't the total be $30?
 <button id="toggle-button3" onclick="toggleContent('collapsible-dollar-riddle-solution','toggle-button3')">Show Solution</button>
 
 
-### Car Colour Puzzle
+## Car Colour Puzzle
 
 ### The Problem:
 Five cars are parked in a line, each with a different colour: **Red, Blue, Green, Yellow, and Black**. Based on the following clues, can you determine the position of the **Yellow car** in the queue?
@@ -140,7 +142,7 @@ Five cars are parked in a line, each with a different colour: **Red, Blue, Green
 
 You can find more problem solving exercises in books and blogs such as:
 
-### References
+## References
 
 ### Books:
 1. [**"The Moscow Puzzles" by Boris A. Kordemsky**](https://www.amazon.co.uk/Boris-Kordemsky-Puzzles-Mathematical-Recreations/dp/B00HTJMZ58/ref=sr_1_1?crid=3L9G58Y8ZYGHT&dib=eyJ2IjoiMSJ9.6xbkzhB93iVBVDOuFgNdpdYftYLFDCBH52mnQxvZ3yQBeaFKP8ne6RTvtpz53W25.PGl_sEcfvh1NG2laonb6NyqoEU8huyDtXK7P_ngQOcA&dib_tag=se&keywords=The+Moscow+Puzzles%E2%80%9D+by+Boris+A.+Kordemsky&nsdOptOutParam=true&qid=1729100821&sprefix=the+moscow+puzzles+by+boris+a.+kordemsky%2Caps%2C79&sr=8-1)  

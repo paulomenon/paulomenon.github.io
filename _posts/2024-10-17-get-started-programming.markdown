@@ -4,20 +4,20 @@ title: Get started Programming
 date: 2024-10-17 12:00:00 +0000
 description: Kickstart your programming journey with practical tips and real-world examples. Whether you're a beginner looking to learn coding or someone struggling to make sense of programming languages, this guide provides easy-to-follow advice to help you build a strong foundation and improve your skills. # Add post description (optional)
 img: programming.jpg # Add image post (optional)
+fig-caption: Photo by <a href="https://unsplash.com/@jeshoots?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">JESHOOTS.COM</a> on <a href="https://unsplash.com/photos/woman-biting-pencil-while-sitting-on-chair-in-front-of-computer-during-daytime--2vD8lIhdnw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 tags: [ProgrammingForBeginners, LearnToCode,TechCareer,  CodingTips, Programming, ProblemSolving, Python] # add tag
 
 ---
-# Get started Programming
 
-Welcome to the world of programming! Whether you’re looking to build a tech career, automate tasks, or simply explore a new hobby, starting your programming journey can be both exciting and overwhelming. Here are some essential tips to help you kickstart your learning path effectively.
+**Welcome to the world of programming!** Whether you’re looking to build a tech career, automate tasks, or simply explore a new hobby, starting your programming journey can be both exciting and overwhelming. Here are some essential tips to help you kickstart your learning path effectively.
 
-I have been working in IT for over 20 years, during this time more than 10 years I worked as a Java developer then moved to a Consultant field. I didn’t stop developing just became less often as I needed to do more troubleshooting, and configurations, implement foundations for projects and eventually believe in not staying involved in long-term project development as before. 
+I have been working in IT for **over 20 years**, during this time more than 10 years I worked as a Java developer then moved to a Consultant field. I didn’t stop developing just became less often as I needed to do more troubleshooting, and configurations, implement foundations for projects and eventually believe in not staying involved in long-term project development as before. 
 
 So I am using my experience and how I learned how to program to help you as well on your journey.
 
 You may have watched tons of videos on YouTube to help you start programming, and a lot of online courses but still you can get a simple task implemented/coded on your own. So you come to the right place.
 
-First thing let’s take one step back before you jump to choose that you need to learn Python, Java, Go, etc, what are the fundamentals to get started programming
+First thing let’s take one step back before you jump to choose that you need to learn **Python**, **Java**, **GO**, **C#**, **C++**, etc, what are the fundamentals to get started programming
 
 ## Programming “Way of Thinking”
 
