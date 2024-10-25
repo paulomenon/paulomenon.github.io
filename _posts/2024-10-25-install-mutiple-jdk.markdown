@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Install multiple JDKs on Mac.
-date: 2024-10-24 12:00:00 +0000
+date: 2024-10-25 12:00:00 +0000
 description: Are you a Java developer or consultant who often needs to switch between different JDK versions? This comprehensive guide will show you how to effortlessly install and manage multiple JDKs on your Mac. Whether you're modernizing applications or testing across various environments, having multiple JDKs at your fingertips can save you time and hassle. With step-by-step instructions and helpful tips, you'll be set up in no time! # Add post description (optional)
 img: java_coffee.jpg # Add image post (optional)
 tags: [ProgrammingForBeginners, LearnToCode,TechCareer,  CodingTips, Programming, ProblemSolving, Python] # add tag
