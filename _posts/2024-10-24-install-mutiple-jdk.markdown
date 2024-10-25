@@ -45,8 +45,19 @@ brew info --cask adoptopenjdk8
  </div>
 </div>
 
+. `brew`: This is the command-line interface for Homebrew, a package manager for macOS and Linux that simplifies the installation of software.
+
+. `info`: This command requests detailed information about a specific package or cask installed via Homebrew.
+
+. `--cask`: This flag specifies that you are referring to a cask, which is used for installing GUI applications and other software that does not fit the standard formula model in Homebrew.
+
+. `adoptopenjdk8`: This specifies the particular cask for which you want information. In this case, it refers to AdoptOpenJDK 8, which is an open-source distribution of the Java Development Kit (JDK).
+
+
 
 # Install JAVA
+
+Running brew info `--cask` adoptopenjdk8 before executing brew `install` --cask adoptopenjdk8 serves a specific purpose, primarily for gathering information and ensuring a smooth installation process.
 
 Then, install the JDK by running this command:
 
@@ -59,6 +70,8 @@ brew install --cask  adoptopenjdk8
  </div>
 </div>
 Remember to replace the JDK version number at the end with the one you need.
+
+. `install`: This command tells Homebrew to install a specified package or cask.
 
 You may need to run `brew update` first to access the latest Homebrew catalog and versions.
 
