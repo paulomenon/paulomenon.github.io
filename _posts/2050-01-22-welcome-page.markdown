@@ -58,7 +58,9 @@ Face 2 Face Presentations
 
 - [Modern Java Ecosystems: Advancing Connectivity and Cloud Deployment at London Java Communty](https://lu.ma/xzd1rfbd)
 
-- page
+- [Interview at Red Hat Summit](https://www.facebook.com/csiway/videos/assista-a-entrevista-com-paulo-menon-palestrante-do-red-hat-summit-2019/1083022105217665/)
+  
+- [Integration Track - Analysing Data - Collecting Metrics from Your Business ProcessesRed at Hat Summit 2019](https://www.slideshare.net/slideshow/integration-track-analysing-data-collecting-metrics-from-your-business-processes/273714616)
   
 
 ### Free time and hobbies
