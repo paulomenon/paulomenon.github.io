@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to my blog! What is PMenon's Insights? and >$ whoami"
+title: "Welcome to Paulo Menon's blog! What is PMenon's Insights?"
 date: 2050-01-01 12:00:00 +0000
 description: Brief intro about myself. # Add post description (optional)
 img:  welcome.jpg # Add image post (optional)
@@ -8,7 +8,7 @@ tags: ["PMenon's Insights","Paulo Menon","pamenon","pmenon", blog, IT]
 ---
 ### Welcome to Paulo Menon's blog
 
-## What is PMenon's Insights?
+## What this blog is about?
 
 **Welcome to PMenon's Insights** – a hub for IT enthusiasts, learners, and professionals alike, driven by a passion for giving back, empowering others, and fostering connections within the ever-evolving landscape of technology.
 
