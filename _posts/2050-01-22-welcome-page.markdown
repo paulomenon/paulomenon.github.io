@@ -48,7 +48,7 @@ Currently, Paulo works as a Principal Consultant and Architect, where he has the
 
 ## Giveback to the community 
 
-Outside of work, Paulo is passionate about giving back to the IT community by working as a mentor in the [Java London Community](https://www.londonjavacommunity.co.uk/), [Meet a Mentor](https://meetamentor.co.uk/) and also helping local schools, colleagues and universities as a [Stem Ambassador](https://www.stem.org.uk/) presenting workshops. 
+Outside of work, Paulo is passionate about giving back to the IT community by working as a mentor in the [London Java Community](https://www.londonjavacommunity.co.uk/), [Meet a Mentor](https://meetamentor.co.uk/) and also helping local schools, colleagues and universities as a [Stem Ambassador](https://www.stem.org.uk/) presenting workshops. 
 
 ### Presentations
 
