@@ -9,9 +9,15 @@ tags: [ProgrammingForBeginners, LearnToCode,TechCareer,  CodingTips, Programming
 
 ---
 
-**Welcome to the world of programming!** Whether you’re looking to build a tech career, automate tasks, or simply explore a new hobby, starting your programming journey can be both exciting and overwhelming. Here are some essential tips to help you kickstart your learning path effectively.
+## Welcome to the world of programming!
 
-I have been working in IT for **over 20 years**, during this time more than 10 years I worked as a Java developer then moved to a Consultant field. I didn’t stop developing just became less often as I needed to do more troubleshooting, and configurations, implement foundations for projects and eventually believe in not staying involved in long-term project development as before. 
+### Brief overview
+
+Whether you’re looking to build a tech career, automate tasks, or simply explore a new hobby, starting your programming journey can be both exciting and overwhelming. Here are some essential tips to help you kickstart your learning path effectively.
+
+### My background programming
+
+I have been working in IT for **over 20 years**, during this time more than 10 years I worked as a Java developer then moved to a Consultant field. I didn’t stop developing just became less often as I needed to do more troubleshooting, and configurations, implement foundations for projects, pilots, PoC and eventually when I get involved in long-term project to implement the end to end solution. 
 
 So I am using my experience and how I learned how to program to help you as well on your journey.
 
