@@ -5,7 +5,7 @@ date: 2024-12-04 12:00:00 +0000
 description: Kickstart your ansible journey with key concepts and basic examples. # Add post description (optional)
 img: ansible.jpg # Add image post (optional)
 #fig-caption: Photo by <a href="https://unsplash.com/@jeshoots?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">JESHOOTS.COM</a> on <a href="https://unsplash.com/photos/woman-biting-pencil-while-sitting-on-chair-in-front-of-computer-during-daytime--2vD8lIhdnw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-tags: [Ansible, GettingStartedWithAnsible, LearnToAutomate,AutomationTools] # add tag
+tags: [Ansible, GettingStartedWithAnsible, LearnToAutomate,AutomationTools, Ansible Playbook, Ansible Inventory] # add tag
 
 ---
 
