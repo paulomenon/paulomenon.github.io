@@ -257,6 +257,27 @@ Here a **hello world ansible playbook** example:
 </div>
 </div>
 
+#### Run your first Ansible Playbook 🏃
+
+To execute the playbook and simplify the process:
+
+1. **Copy and Save**: Copy the YAML content into a file, e.g., `hello_world.yml`.
+
+2. **Run with Inventory**:
+   - If `hosts: all` is defined, you need an inventory file. Run:  
+     ```bash
+     ansible-playbook -i <inventory> hello_world.yml
+     ```
+
+3. **Simplify with `localhost`**:
+   - Change `hosts: all` to `hosts: localhost` in the playbook.
+   - This removes the need for an inventory file. Run:  
+     ```bash
+     ansible-playbook hello_world.yml
+     ``` 
+
+This works because `localhost` tells Ansible to execute directly on the control node without requiring an external inventory.
+
 #### Ansible Inventory 📋🔧
 
 In Ansible, the **inventory** defines the hosts where tasks will be executed.
