@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Ansible in a disconnected environment
+title: "Ansible in a disconnected environment"
 date: 2025-05-22 12:00:00 +0000
-description: How to configure Ansible in a disconnected environment. # Add post description (optional)
-img: disconnected.jpg # Add image post (optional)
-fig-caption: Photo by <a href="https://unsplash.com/@davfts?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">David Pupăză</a> on <a href="https://unsplash.com/photos/text-heNwUmEtZzo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-tags: [ansible, playbook, disconnected, devops, real-world] # add tag
-
+description: "How to configure Ansible in a disconnected environment."
+img: disconnected.jpg
+fig-caption: 'Photo by <a href="https://unsplash.com/@davfts?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">David Pupăză</a> on <a href="https://unsplash.com/photos/text-heNwUmEtZzo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>'
+tags: [ansible, playbook, disconnected, devops, real-world]
 ---
+
 
 # 🚫 How to Install Ansible in a Disconnected Environment
 
