@@ -29,3 +29,9 @@ Fork the ``master`` branch and follow the [Jekyll Installation Documentation](ht
 ## License
 
 GNU General Public License v3.0
+
+## Start server, build and deploy
+
+bundle exec jekyll serve
+
+bundle exec jekyll build
