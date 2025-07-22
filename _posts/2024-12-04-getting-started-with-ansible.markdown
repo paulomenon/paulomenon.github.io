@@ -315,6 +315,37 @@ Embarking on your Ansible journey can be both exciting and rewarding. By followi
 Remember, mastery comes with practice. Start small, experiment with playbooks, and gradually tackle more advanced scenarios. The automation landscape evolves rapidly, so keep exploring, stay curious, and share your insights with the community. 🌟 Happy automating! 🎉 See you next time with more! 🚀✨
 
 
+## Extra material and useful videos
+
+You can also explore some useful Videos, Documents and Online Training courses to help you improve your learning process.
+
+- 📘[Learning Ansible Basics](https://www.redhat.com/en/topics/automation/learning-ansible-tutorial)
+
+- 🧾[Ansible Syntax Intro](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html)
+
+- 📚 [Anbile Get Started Community Docs](https://docs.ansible.com/ansible/latest/getting_started/index.html)
+
+- 🚀[Ansible Bootcamp Free](https://www.youtube.com/watch?v=3RiVKs8GHYQ&list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70&ab_channel=LearnLinuxTV)
+
+- 🎓[Ansible introduction course](https://www.linkedin.com/learning/learning-ansible-2020/an-introduction-to-ansible?u=2056732)
+
+- 🎓[Ansible essential course](https://www.linkedin.com/learning/ansible-essential-training-14199798/upgrade-your-it-skills-with-ansible?u=2056732)
+
+- 🎓[Red Hat Automation With Ansible course](https://www.redhat.com/en/services/training/rh294-red-hat-linux-automation-with-ansible)
+
+## Don’t forget to Join the community
+
+Join Ansible communities, forums, and online groups to learn from others and share your experiences.
+
+- 🌍[Ansible Community](https://www.ansible.com/community)
+
+- 💬[Ansible Forum](https://forum.ansible.com/)
+
+- 📖[Ansible Docs](]https://docs.ansible.com/community.html)
+
+- 📰[Official Ansible Blog/News](https://www.ansible.com/blog?extIdCarryOver=true&sc_cid=701f2000001OH7YAAW)
+  
+  
 >This page was last update at {{ "now" | date: "%Y-%m-%d %H:%M" }} 
 
 
