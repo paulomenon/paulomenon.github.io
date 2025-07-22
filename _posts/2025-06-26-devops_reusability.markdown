@@ -291,7 +291,6 @@ ansible-galaxy role init roles/openshift_infra
 <img src="../assets/img/folder_structure.png"  width="600" height="700"  title="folder structure example" >
 
 
-
 ## Creating a Shared Security Role
 
 You can create another role that will be shared between the other two roles for access and authorization called `security`.
