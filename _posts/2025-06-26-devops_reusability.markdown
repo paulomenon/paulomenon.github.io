@@ -288,8 +288,48 @@ ansible-galaxy role init roles/openshift_infra
 
 ## Folder structure example:
 
-<img src="../assets/img/folder_structure.png"  width="600" height="700"  title="folder structure example" >
 
+<div class="code-snippet">
+  <div class="highlight">
+{% highlight command-line %}
+roles/
+├── argocd/
+│   ├── defaults/
+│   │   └── main.yml
+│   ├── files/
+│   ├── handlers/
+│   │   └── main.yml
+│   ├── meta/
+│   │   └── main.yml
+│   ├── tasks/
+│   │   └── main.yml
+│   ├── templates/
+│   ├── tests/
+│   │   ├── inventory
+│   │   └── test.yml
+│   └── vars/
+│       └── main.yml
+└── openshift_infra/
+    ├── defaults/
+    │   └── main.yml
+    ├── files/
+    ├── handlers/
+    │   └── main.yml
+    ├── meta/
+    │   └── main.yml
+    ├── tasks/
+    │   └── main.yml
+    ├── templates/
+    ├── tests/
+    │   ├── inventory
+    │   └── test.yml
+    └── vars/
+        └── main.yml
+
+{% endhighlight %}
+<button class="copy-button" onclick="copyCode(this)" title="Copy to Clipboard"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M 8 2 L 8 4 L 4 4 L 4 20 L 16 20 L 16 16 L 18 16 L 18 22 L 2 22 L 2 2 Z M 10 4 L 18 4 L 18 14 L 16 14 L 16 6 L 10 6 Z M 6 8 L 14 8 L 14 18 L 6 18 Z M 10 10 L 12 10 L 12 16 L 10 16 Z"></path></svg></button>
+</div>
+</div>
 
 ## Creating a Shared Security Role
 
