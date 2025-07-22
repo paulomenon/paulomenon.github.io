@@ -28,9 +28,9 @@
     <meta content="{{ site.url }}/about/" property="article:author">
   {% endif %}
   {% if page.img %}
-    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.img }}">
+   <meta property="og:image" content="{{ page.img | absolute_url }}">
   {% else %}
-    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author-img }}">
+   <meta property="og:image" content="{{ '/assets/img/' | append: site.author-img | absolute_url }}">
   {% endif %}
   {% if page.categories %}
     {% for category in page.categories limit:1 %}
