@@ -1,0 +1,20 @@
+<script>
+function copyCode(button) {
+  var codeBlock = button.previousElementSibling;
+  if (!codeBlock) {
+    var parent = button.parentElement;
+    codeBlock = parent.querySelector("pre") || parent.querySelector("code") || parent.querySelector(".highlight");
+  }
+
+  var code = codeBlock.querySelector("code") || codeBlock.querySelector("pre") || codeBlock;
+  var text = code.innerText || code.textContent;
+
+  navigator.clipboard.writeText(text).then(function () {
+    var originalHTML = button.innerHTML;
+    button.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="green"><polyline points="20 6 9 17 4 12" fill="none" stroke="green" stroke-width="2"></polyline></svg>';
+    setTimeout(function () {
+      button.innerHTML = originalHTML;
+    }, 2000);
+  });
+}
+</script>

@@ -1,0 +1,95 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+html {
+  font-size: 14px;
+}
+
+.page__content {
+  font-size: 0.95em;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+.author__name {
+  font-size: 1.1em;
+}
+
+.author__bio {
+  font-size: 0.85em;
+}
+
+.masthead__menu-item {
+  font-size: 0.85em;
+}
+
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.greedy-nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.greedy-nav .visible-links {
+  display: flex;
+  margin-left: 1em;
+  flex: none;
+}
+
+.greedy-nav .hidden-links {
+  right: auto;
+  left: 0;
+}
+
+.author__avatar {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.author__avatar img {
+  max-width: 200px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.copy-button {
+  background: #e2e6ea;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  color: #555;
+  line-height: 1;
+  margin-top: 4px;
+  display: inline-flex;
+  align-items: center;
+  transition: background 0.2s ease;
+}
+
+.copy-button:hover {
+  background: #cdd1d5;
+  color: #222;
+}
+
+.copy-button svg {
+  fill: #555;
+}

@@ -1,0 +1,104 @@
+# For GitHub Pages:
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+# For local development (uncomment theme and comment out remote_theme):
+#theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air"
+
+# Site Settings
+locale: "en-US"
+title: "Paulo Menon's Homepage"
+title_separator: "|"
+subtitle: ""
+name: "Paulo Menon"
+description: >-
+  Discover PMenon's Insights: Your go-to resource for Paulo Menon's 20+ years
+  of IT expertise. Explore topics like cloud solutions, software architecture,
+  DevOps, CI/CD, GitOps, Java, Python, and more!
+url: "https://paulomenon.github.io"
+baseurl: ""
+
+# Site Author
+author:
+  name: "Paulo Menon"
+  avatar: "/assets/images/paulo-menon.png"
+  bio: "Senior Architect &#124; MLOps &#124; DevOps &#124; GitOps &#124; AppDev Cloud &#124; AI solutions, with a passion for open source, collaboration and knowledge sharing."
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/menon_paulo"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/paulomenon"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/paulomenon"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/link-tbc/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:pmenoninsights@gmail.com"
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/menon_paulo"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/paulomenon"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/paulomenon"
+
+# Build Settings
+markdown: kramdown
+permalink: /:title/
+future: true
+
+# Pagination
+paginate: 8
+paginate_path: /page:num/
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Reading
+excerpt_separator: "<!--more-->"
+
+# Collections / Pages
+include:
+  - _pages
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
