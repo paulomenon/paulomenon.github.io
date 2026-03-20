@@ -10,10 +10,7 @@ title: "Paulo Menon's Homepage"
 title_separator: "|"
 subtitle: ""
 name: "Paulo Menon"
-description: >-
-  Discover PMenon's Insights: Your go-to resource for Paulo Menon's 20+ years
-  of IT expertise. Explore topics like cloud solutions, software architecture,
-  DevOps, CI/CD, GitOps, Java, Python, and more!
+description: "Senior Architect with 26+ years in IT. Blog on cloud architecture, AI, MLOps, DevOps, GitOps, Kubernetes, CI/CD, and open-source solutions."
 url: "https://paulomenon.github.io"
 baseurl: ""
 
@@ -42,9 +39,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/menon_paulo"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/link-tbc/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/paulomenon"
