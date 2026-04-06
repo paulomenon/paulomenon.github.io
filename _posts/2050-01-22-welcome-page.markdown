@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Welcome to Paulo Menon's blog! What is Paulo Menon's blog?"
+title: "Welcome to Paulo Menon's blog!"
 date: 2050-01-01 12:00:00 +0000
 description: Brief intro about myself. # Add post description (optional)
 tags: ["Paulo Menon's blog","Paulo Menon","pamenon","pmenon", blog, IT]
 hidden: true
 ---
-### Welcome to Paulo Menon's blog
+
 
 ## What this blog is about?
 
