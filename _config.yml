@@ -49,6 +49,12 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/paulomenon"
 
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "" # Add your Google Analytics ID here (e.g. G-XXXXXXXXXX)
+
 # Build Settings
 markdown: kramdown
 permalink: /:title/

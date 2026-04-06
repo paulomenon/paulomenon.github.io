@@ -43,7 +43,7 @@ As it was mentioned by one of his peers "I found Paulo very professional and fri
 
 Paulo has over 20 years of experience in IT. He began his career programming in Java before popular frameworks like Hibernate emerged. His journey started in Brazil as a JBoss consultant, working as a contractor for Red Hat and its partners. After some time, he moved to the UK, continuing as a consultant for Red Hat UK, again as a contractor/partner, for another three years. Paulo then joined Red Hat as a permanent employee in 2015.
 
-Currently, Paulo works as a Principal Consultant and Architect, where he has the flexibility to contribute to both architecture design for cloud application development, DevOps, GitOps, automation, and integration. He is also hands-on in delivering application modernization, cloud-native solutions, and cloud architecture and development.
+Paulo, a hands-on Senior Architect and former Principal Consultant, now contributes to architecture design for App modernisation, cloud applications migration, DevOps, GitOps, MLOps, Automation, and Integration. He also actively participates in delivering solutions to Kubernetes.
 
 ## Giveback to the community 
 
