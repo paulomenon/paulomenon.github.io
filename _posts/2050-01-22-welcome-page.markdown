@@ -10,7 +10,7 @@ hidden: true
 
 ## What this blog is about?
 
-**Welcome to Paulo Menon's blog** – a hub for IT enthusiasts, learners, and professionals alike, driven by a passion for giving back, empowering others, and fostering connections within the ever-evolving landscape of technology.
+A hub for IT enthusiasts, learners, and professionals, fueled by a passion for giving back, empowering others, and building connections in the constantly changing world of technology.
 
 I believe in the power of collaboration, knowledge transfer and community engagement. My blog is to share information, real use cases, learning paths and tutorials based on my experiences working in the IT industry for over 23 years
 
