@@ -49,11 +49,17 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/paulomenon"
 
+# SEO / Search Console
+google_site_verification: "" # Add your Google Search Console verification code here
+twitter:
+  username: "menon_paulo"
+og_image: "/assets/images/paulo-menon.png"
+
 # Analytics
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "" # Add your Google Analytics ID here (e.g. G-XXXXXXXXXX)
+    tracking_id: "G-R557DT4TLP"
 
 # Build Settings
 markdown: kramdown
