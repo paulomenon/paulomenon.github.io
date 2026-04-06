@@ -16,7 +16,9 @@ Whether you're running a full production setup with F5 or a simpler lab environm
 
 ## Red Hat Connectivity Link
 
-Red Hat Connectivity Link uses the **Gateway API** to create a load balancer service for OpenShift Container Platform. This exposes the gateway directly from the cluster with a routable IP address. This is different from the traditional OCP routes exposed through the ingress controller. The Gateway is defined via a separate **Gateway custom resource**. The gateway uses a Redis (or compatible) database to store rate-limiting information when rate-limiting policies are in effect. The gateway will define a list of allowed host names for applications. Wild cards are supported (for example, `*.apps.example.com`). Gateway admins can set base policies for the gateway in the gateway namespace. The application admins can add and override these policies for each application.
+Red Hat Connectivity Link uses the **Gateway API** to create a load balancer service for OpenShift Container Platform. This exposes the gateway directly from the cluster with a routable IP address. This is different from the traditional OCP routes exposed through the ingress controller. The Gateway is defined via a separate **Gateway custom resource**. The gateway uses a Redis (or compatible) database to store rate-limiting information when rate-limiting policies are in effect. The gateway will define a list of allowed host names for applications. Wild cards are supported (for example, `*.apps.example.com`). Gateway admins can set base policies for the gateway in the gateway namespace. The application admins can add and override these policies for each application. As you can see in the diagram below:
+
+![Connectivity Link Application Flow](/assets/images/connectivityLinkApplicationFlow.png)
 
 Application traffic flows directly through the gateway to the API producer. The application will define an **HTTPRoute** custom resource to expose the application through the gateway. The HTTPRoute object will define the application's host names.
 
@@ -50,6 +52,8 @@ BGP mode is ideal, as you can assign public IPs or external VLAN-routed subnets 
 ## Traffic Flow Overview
 
 The traffic flow in this setup is as follows:
+
+![Traffic Flow](/assets/images/trafficFlow.png)
 
 1. **F5 load balancer** receives incoming traffic and forwards it to the MetalLB-assigned IP address.
 2. **MetalLB** assigns an IP from the configured pool to the LoadBalancer service.
@@ -85,6 +89,8 @@ spec:
 
 In this example, it will allow MetalLB to assign IP addresses in the range `192.168.2.10-192.168.2.50` to any LoadBalancer service.
 
+![IP Address Pools](/assets/images/ipAddressPool.png)
+
 ---
 
 ### Step 2: Deploy a BGP Peer
@@ -113,6 +119,7 @@ spec:
 - **peerASN: 65001** — This is the ASN of your router. You need to know this from your router's configuration.
 - **myASN: 64512** — This is the ASN for MetalLB. Typically, clusters use a private ASN such as 64512, but you can adjust it if needed.
 
+
 > You can also enable **BFD (Bidirectional Forwarding Detection)** for fast failure detection by adding `bfdprofile: default` to the spec. This is optional but recommended for production environments where fast failover is critical.
 
 ---
@@ -138,6 +145,19 @@ spec:
 <button class="copy-button" onclick="copyCode(this)" title="Copy to Clipboard"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M 8 2 L 8 4 L 4 4 L 4 20 L 16 20 L 16 16 L 18 16 L 18 22 L 2 22 L 2 2 Z M 10 4 L 18 4 L 18 14 L 16 14 L 16 6 L 10 6 Z M 6 8 L 14 8 L 14 18 L 6 18 Z M 10 10 L 12 10 L 12 16 L 10 16 Z"></path></svg></button>
 </div>
 </div>
+
+This command below applies BGP peer on OpenShift.
+
+<div class="code-snippet">
+  <div class="highlight">
+{% highlight bash %}
+oc apply -f bgp-peer.yaml
+{% endhighlight %}
+<button class="copy-button" onclick="copyCode(this)" title="Copy to Clipboard"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M 8 2 L 8 4 L 4 4 L 4 20 L 16 20 L 16 16 L 18 16 L 18 22 L 2 22 L 2 2 Z M 10 4 L 18 4 L 18 14 L 16 14 L 16 6 L 10 6 Z M 6 8 L 14 8 L 14 18 L 6 18 Z M 10 10 L 12 10 L 12 16 L 10 16 Z"></path></svg></button>
+</div>
+</div>
+
+![BGP Peer](/assets/images/bgpPeer.png)
 
 ---
 
@@ -174,6 +194,8 @@ spec:
 </div>
 
 MetalLB will assign an IP from the pool, and your router will learn that route via BGP. In this service example:
+
+![Create Service](/assets/images/createService.png)
 
 - MetalLB will automatically assign an IP from the IP pool (`192.168.2.10-192.168.2.50`).
 - The IP will be advertised to your router via BGP, allowing external access to your service.
