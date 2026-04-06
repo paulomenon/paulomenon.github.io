@@ -5,6 +5,8 @@ date: 2025-11-14 12:00:00 +0000
 description: An overview of the ML workflow and why it’s crucial for AI project success. # Add post description (optional)
 #fig-caption: Photo by <a href="https://unsplash.com/@jeshoots?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">JESHOOTS.COM</a> on <a href="https://unsplash.com/photos/woman-biting-pencil-while-sitting-on-chair-in-front-of-computer-during-daytime--2vD8lIhdnw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 tags: [ML, Workflow, MLWorkflow, AI, MLOps, MachineLearning, ArtificialIntelligence, AIprojects, AIengineer, DataScience] # add tag
+header:
+  og_image: "/assets/images/ml_workflow.png"
 ---
 
 ## How to get your ML/AI agent/LLM/agentic projects from development to production. 

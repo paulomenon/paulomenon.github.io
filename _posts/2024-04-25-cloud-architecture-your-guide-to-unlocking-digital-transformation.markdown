@@ -4,6 +4,8 @@ title: Cloud Architecture Your Guide to Digital Transformation! - Live in the Cl
 date: 2024-04-25 12:00:00 +0000
 description: Cloud Architecture guide on Openshift/Kubernets. Your guide to unlocking digital transformation # Add post description (optional)
 tags: [Cloud Architecture, Kubernetes, Openshift] # add tag
+header:
+  og_image: "/assets/images/myths.png"
 ---
 
 # Live in the Cloud Part 1

@@ -4,6 +4,8 @@ title: Cloud Architecture - Live in the Cloud Part 2!
 date: 2024-05-20 12:00:00 +0000
 description: Basic Cloud Architecture using Kubernetes platform as example. # Add post description (optional)
 tags: [Cloud Architecture, Kubernetes, Cloud Platform, Cloud Cluster,Namespace,Container, Pod, Statefulset, Deployment, Services, Load Balance, ConfigMap, Secrets, Quota, Cloud Configuration, Cloud AppDev, AppDev] # add tag
+header:
+  og_image: "/assets/images/cloud_arch.png"
 ---
 
 # Live in the Cloud Part 2

@@ -5,6 +5,8 @@ date: 2050-01-01 12:00:00 +0000
 description: "Meet Paulo Menon — Senior Architect with 26+ years in IT, specialising in cloud architecture, AI, MLOps, DevOps, GitOps, and open-source solutions."
 tags: ["Paulo Menon's blog","Paulo Menon","pamenon","pmenon", blog, IT]
 hidden: true
+header:
+  og_image: "/assets/images/scottish_paulo.jpg"
 ---
 
 

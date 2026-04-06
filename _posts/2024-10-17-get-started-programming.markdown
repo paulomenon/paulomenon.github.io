@@ -5,6 +5,8 @@ date: 2024-10-17 12:00:00 +0000
 description: Kickstart your programming journey with practical tips and real-world examples. Whether you're a beginner looking to learn coding or someone struggling to make sense of programming languages, this guide provides easy-to-follow advice to help you build a strong foundation and improve your skills. # Add post description (optional)
 fig-caption: Photo by <a href="https://unsplash.com/@jeshoots?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">JESHOOTS.COM</a> on <a href="https://unsplash.com/photos/woman-biting-pencil-while-sitting-on-chair-in-front-of-computer-during-daytime--2vD8lIhdnw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 tags: [ProgrammingForBeginners, LearnToCode,TechCareer,  CodingTips, Programming, ProblemSolving, Python] # add tag
+header:
+  og_image: "/assets/images/question.jpg"
 ---
 
 ## Welcome to the world of programming!

@@ -4,6 +4,8 @@ title: "Red Hat Connectivity Link and MetalLB BGP Mode"
 date: 2026-04-06 12:00:00 +0000
 description: "How to configure Red Hat Connectivity Link with MetalLB in BGP mode on OpenShift, including F5 integration and traffic flow."
 tags: [metallb, bgp, openshift, connectivity link, rhcl, f5, envoy, kubernetes, gateway api, real-world]
+header:
+  og_image: "/assets/images/trafficFlow.png"
 ---
 
 ## Red Hat Connectivity Link and MetalLB BGP Mode on OpenShift
