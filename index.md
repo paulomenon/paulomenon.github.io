@@ -25,10 +25,14 @@ on [LinkedIn](https://linkedin.com/in/paulomenon) or
 
 # Recent Publications
 
-- [What is ML Workflow? And Why Is This Important for Your AI Project?](/ML-workflow-overview/) — *Nov 2025*
-- [DevOps Automation Reusability](/devops_reusability/) — *Jun 2025*
-- [Ansible in a Disconnected Environment](/ansible-disconnected-env/) — *May 2025*
-- [ArgoCD Best Practices for Scalable DevOps and MLOps Pipelines](/argocd-best-practices/) — *May 2025*
-- [Getting Started with Ansible - Your Learning Path Guide](/getting-started-with-ansible/) — *Dec 2024*
+{% assign count = 0 %}
+{% for post in site.posts %}
+{% unless post.hidden %}
+{% if count < 5 %}
+- [{{ post.title }}]({{ post.url }}) — *{{ post.date | date: "%b %Y" }}*
+{% assign count = count | plus: 1 %}
+{% endif %}
+{% endunless %}
+{% endfor %}
 
 [View all publications &rarr;](/publications/)

@@ -1,21 +1,22 @@
 ---
 layout: single
-title: "Welcome to Paulo Menon's blog! What is PMenon's Insights?"
+title: "Welcome to Paulo Menon's blog! What is Paulo Menon's blog?"
 date: 2050-01-01 12:00:00 +0000
 description: Brief intro about myself. # Add post description (optional)
-tags: ["PMenon's Insights","Paulo Menon","pamenon","pmenon", blog, IT]
+tags: ["Paulo Menon's blog","Paulo Menon","pamenon","pmenon", blog, IT]
+hidden: true
 ---
 ### Welcome to Paulo Menon's blog
 
 ## What this blog is about?
 
-**Welcome to PMenon's Insights** – a hub for IT enthusiasts, learners, and professionals alike, driven by a passion for giving back, empowering others, and fostering connections within the ever-evolving landscape of technology.
+**Welcome to Paulo Menon's blog** – a hub for IT enthusiasts, learners, and professionals alike, driven by a passion for giving back, empowering others, and fostering connections within the ever-evolving landscape of technology.
 
 I believe in the power of collaboration, knowledge transfer and community engagement. My blog is to share information, real use cases, learning paths and tutorials based on my experiences working in the IT industry for over 23 years
 
-Whether you're a seasoned developer, a curious enthusiast, or a tech professional looking to expand your skill set, PMenon's Insights is tailored to meet your needs. Dive into our extensive collection of articles covering Java and Python programming, cloud-native technologies, cloud platforms, automation, integration, DevOps, GitOps, MLOps, Agile methodologies, CI/CD pipelines, data analytics, data science, and AI.
+Whether you're a seasoned developer, a curious enthusiast, or a tech professional looking to expand your skill set, Paulo Menon's blog is tailored to meet your needs. Dive into our extensive collection of articles covering Java and Python programming, cloud-native technologies, cloud platforms, automation, integration, DevOps, GitOps, MLOps, Agile methodologies, CI/CD pipelines, data analytics, data science, and AI.
 
-PMenon's Insights is here to share insights and guidance rooted in my experience. Whether you're a pro or just starting, welcome to PMenon's Insights, where learning has no limits. Let's dive in and unlock IT excellence together!
+Paulo Menon's blog is here to share insights and guidance rooted in my experience. Whether you're a pro or just starting, welcome to Paulo Menon's blog, where learning has no limits. Let's dive in and unlock IT excellence together!
 
 ## Meet Paulo Menon
 
@@ -43,7 +44,7 @@ As it was mentioned by one of his peers "I found Paulo very professional and fri
 
 Paulo has over 20 years of experience in IT. He began his career programming in Java before popular frameworks like Hibernate emerged. His journey started in Brazil as a JBoss consultant, working as a contractor for Red Hat and its partners. After some time, he moved to the UK, continuing as a consultant for Red Hat UK, again as a contractor/partner, for another three years. Paulo then joined Red Hat as a permanent employee in 2015.
 
-Paulo, a hands-on Senior Architect and former Principal Consultant, now contributes to architecture design for App modernisation, cloud applications migration, DevOps, GitOps, MLOps, Automation, and Integration. He also actively participates in delivering solutions to Kubernetes.
+Paulo, a hands-on Senior Architect and former Principal Consultant, now contributes to architecture design for App modernisation, cloud applications migration, DevOps, GitOps, MLOps, Automation, and Integration. He also actively participates in delivering Kubernetes solutions.
 
 ## Giveback to the community 
 
