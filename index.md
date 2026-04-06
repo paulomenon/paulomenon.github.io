@@ -1,7 +1,8 @@
 ---
 layout: single
 author_profile: true
-title: "About Me"
+title: "Paulo Menon — Senior Architect | Cloud, AI, DevOps & Open Source"
+description: "Paulo Menon's blog — Senior Architect with 26+ years in IT sharing insights on cloud architecture, AI, MLOps, DevOps, GitOps, Kubernetes, and open-source solutions."
 ---
 
 Welcome to my personal website! I'm Paulo Menon, a Senior Architect with over 26 years of expertise in IT.

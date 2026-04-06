@@ -2,7 +2,7 @@
 layout: single
 title: "Welcome to Paulo Menon's blog!"
 date: 2050-01-01 12:00:00 +0000
-description: Brief intro about myself. # Add post description (optional)
+description: "Meet Paulo Menon — Senior Architect with 26+ years in IT, specialising in cloud architecture, AI, MLOps, DevOps, GitOps, and open-source solutions."
 tags: ["Paulo Menon's blog","Paulo Menon","pamenon","pmenon", blog, IT]
 hidden: true
 ---
