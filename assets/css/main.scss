@@ -83,6 +83,29 @@ h3 {
   display: inline-flex;
   align-items: center;
   transition: background 0.2s ease;
+  position: relative;
+}
+
+.copy-button::after {
+  content: "Copy to clipboard";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  font-size: 0.75em;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  margin-bottom: 6px;
+}
+
+.copy-button:hover::after {
+  opacity: 1;
 }
 
 .copy-button:hover {
