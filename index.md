@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: "Paulo Menon — Senior Architect | Cloud, AI, DevOps & Open Source"
+title: "Paulo Menon's Blog"
 description: "Paulo Menon's blog — Senior Architect with 26+ years in IT sharing insights on cloud architecture, AI, MLOps, DevOps, GitOps, Kubernetes, and open-source solutions."
 ---
 
