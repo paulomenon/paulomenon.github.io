@@ -34,7 +34,7 @@ author:
       url: "https://github.com/paulomenon"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/link-tbc/"
+      url: "https://www.youtube.com/@MenonBytes"
     #- label: "Email"
     #  icon: "fas fa-fw fa-envelope-square"
     #  url: "mailto:pmenoninsights@gmail.com"
@@ -44,7 +44,7 @@ footer:
   links:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/link-tbc/"
+      url: "https://www.youtube.com/@MenonBytes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/paulomenon"
